@@ -1,11 +1,15 @@
 import scaleImg from 'public/scale.jpg';
-import Image from 'next/image';
+import Hero from '@/components/Hero';
 
 export default function ScalePage() {
     return (
         <div>
             Scale Page
-            <Image src={scaleImg} alt="scaleImg" />
+            <Hero
+                imgData={scaleImg}
+                imgAlt="car factory"
+                title="Scale your app to infinity."
+            />
         </div>
     );
 }
