@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.link {
+	@apply text-base duration-300 ease-linear hover:text-cyan-300 md:text-lg;
+}
